@@ -20,10 +20,12 @@ export const ThirdParty = () => {
           <dd>
             <input type="text" name="UserName" onChange={formik.handleChange} />
           </dd>
+          <dd className="text-danger">{formik.errors.UserName}</dd>
           <dt>Age</dt>
           <dd>
             <input type="text" name="Age" onChange={formik.handleChange} />
           </dd>
+          <dd className="text-danger">{formik.errors.Age}</dd>
           <dt>City</dt>
           <dd>
             <select name="City" onChange={formik.handleChange}>
