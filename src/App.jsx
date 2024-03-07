@@ -1,9 +1,9 @@
-import { ReactForms } from "./forms/reactForm";
+import { ThirdParty } from "./formik/formik";
 
 function App() {
   return (
     <>
-      <ReactForms />
+      <ThirdParty />
     </>
   );
 }
